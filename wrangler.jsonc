@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // MobiCycle Consulting - Business consulting MCP server
+  "name": "mcp-streamable-http-cloudflare",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-02-11",
+  "compatibility_flags": ["nodejs_compat"],
+  "account_id": "MOBICYCLE_CONSULTING_ACCOUNT_ID",
+  "kv_namespaces": [
+    { "binding": "CONSULTING_PROJECTS", "id": "PLACEHOLDER_ID_1" },
+    { "binding": "CONSULTING_CLIENTS", "id": "PLACEHOLDER_ID_2" },
+    { "binding": "CONSULTING_REPORTS", "id": "PLACEHOLDER_ID_3" },
+    { "binding": "CONSULTING_PROPOSALS", "id": "PLACEHOLDER_ID_4" },
+    { "binding": "CONSULTING_TEMPLATES", "id": "PLACEHOLDER_ID_5" },
+    { "binding": "CONSULTING_METRICS", "id": "PLACEHOLDER_ID_6" }
+  ]
+}
